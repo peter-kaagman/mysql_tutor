@@ -1,0 +1,26 @@
+{
+  "name": "mysql_tutor",
+  "version": "1.0.0",
+  "description": "Een tutorial voor MySQL en Equelizer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peter-kaagman/mysql_tutor.git"
+  },
+  "author": "Peter Kaagman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peter-kaagman/mysql_tutor/issues"
+  },
+  "homepage": "https://github.com/peter-kaagman/mysql_tutor#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  }
+}
